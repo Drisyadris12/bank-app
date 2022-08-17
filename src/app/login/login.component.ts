@@ -39,12 +39,42 @@ pswd=""
     
   }
 
-login()
+// login()
+// {
+//  //fetch acno
+//  var acno =this.acno
+//  console.log(acno);
+//  var pswd = this.pswd
+//  console.log(pswd);
+
+//  let userDetails = this.database
+//  if(acno in userDetails){
+//   if(pswd==userDetails[acno]['password']){
+//     alert('Log in successfull')
+//   }
+//   else{
+//     alert('incorrect password')
+//   }
+
+//  }
+//  else{
+//   alert('user does no exist')
+//  }
+ 
+ 
+// }
+// }
+
+
+
+login(a:any,p:any)
+console.log(a);
+
 {
  //fetch acno
- var acno =this.acno
+ var acno = a.value
  console.log(acno);
- var pswd = this.pswd
+ var pswd = p.value
  console.log(pswd);
 
  let userDetails = this.database
